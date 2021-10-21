@@ -1,5 +1,7 @@
 {
-  "name": "ionic-app-base",
-  "integrations": {},
+  "name": "SmileDent",
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }
