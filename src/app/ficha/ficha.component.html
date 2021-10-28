@@ -1,0 +1,190 @@
+<ion-header [translucent]="true">
+  <ion-toolbar >
+    <ion-title >
+      Ficha cliente
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+
+    </ion-card-header>
+    <ion-card-content>
+      <ion-row>
+        <ion-item>
+          <ion-label>Fecha</ion-label>
+          <ion-input type="text" placeholder="Awesome Input"></ion-input>
+        </ion-item>
+
+      </ion-row>
+      <ion-row>
+        <ion-col >
+          <ion-item>
+            <ion-label>Paciente</ion-label>
+            <ion-input type=""></ion-input>
+          </ion-item>
+          
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-item>
+            <ion-label>Motivo</ion-label>
+            <ion-input type=""></ion-input>
+          </ion-item>
+        </ion-col> 
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-item>
+            <ion-label>Antedentes</ion-label>
+            <ion-input type=""></ion-input>
+          </ion-item>
+        </ion-col>  
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-item>
+            <ion-label>Toma medicamentos</ion-label>
+            <ion-input type=""></ion-input>
+          </ion-item>
+        </ion-col>
+        <ion-col>
+          <ion-item>
+            <ion-label>Medico tratante</ion-label>
+            <ion-input type=""></ion-input>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-item>
+            <ion-label>Ultmo examen O.</ion-label>
+            <ion-input type=""></ion-input>
+          </ion-item>
+        </ion-col>
+        <ion-col>
+          <ion-item>
+            <ion-label>Dolor en algun diente</ion-label>
+            <ion-input type=""></ion-input>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-item>
+            <ion-label>Alergias</ion-label>
+            <ion-input type=""></ion-input>
+          </ion-item>
+        </ion-col>  
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-item>
+            <ion-label>Embarazo</ion-label>
+              <ion-select value="peperoni" multiple="false" placeholder="Seleccione">
+                <ion-select-option value="SI">SI</ion-select-option>
+                <ion-select-option value="NO">NO</ion-select-option>
+              </ion-select>
+        
+          </ion-item>
+        </ion-col>
+        <ion-col>
+          <ion-item>
+            <ion-label>Especifique</ion-label>
+            <ion-input type=""></ion-input>
+          </ion-item>
+        </ion-col>
+        <ion-col>
+          <ion-item>
+            <ion-label>Sangran las encias al cepillarse</ion-label>
+            <ion-select value="peperoni" multiple="false" placeholder="Seleccione">
+              <ion-select-option value="SI">SI</ion-select-option>
+              <ion-select-option value="NO">NO</ion-select-option>
+            </ion-select>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-item>
+            <ion-label>Protesis</ion-label>
+            <ion-select value="peperoni" multiple="false" placeholder="Seleccione">
+              <ion-select-option value="SI">SI</ion-select-option>
+              <ion-select-option value="NO">NO</ion-select-option>
+            </ion-select>
+          </ion-item>
+        </ion-col>
+        <ion-col>
+          <ion-item>
+            <ion-label>Cuanto tiempo</ion-label>
+            <ion-input type=""></ion-input>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-item>
+            <ion-label>Articulacion temporo mandibular</ion-label>
+            <ion-input type=""></ion-input>
+          </ion-item>
+        </ion-col>  
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-item>
+            <ion-label>Zonas del aparato estomatognatico</ion-label>
+            <ion-input type=""></ion-input>
+          </ion-item>
+        </ion-col>  
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-item>
+            <ion-label>Habitos para funcionales</ion-label>
+            <ion-input type=""></ion-input>
+          </ion-item>
+        </ion-col>  
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-item>
+            <ion-label>Diagnostico</ion-label>
+            <ion-textarea></ion-textarea>
+          </ion-item>
+        </ion-col>  
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-item>
+            <ion-label>Observacion</ion-label>
+            <ion-textarea></ion-textarea>
+          </ion-item>
+        </ion-col>  
+      </ion-row>
+      <ion-toolbar>
+        <ion-buttons slot="end">
+          <ion-button (click)="onClick()" color="medium">
+            <ion-icon slot="start" name="arrow-back"></ion-icon>
+            Regresar
+          </ion-button>
+          <ion-button (click)="onClick()" color="primary">
+            <ion-icon slot="start" name="clipboard" ></ion-icon>
+            Generar receta
+          </ion-button>
+          <ion-button (click)="onClick()" color="success">
+            <ion-icon slot="start" name="card"></ion-icon>
+            Generar pago
+          </ion-button>
+          <ion-button (click)="onClick()" color="warning">
+            <ion-icon slot="start" name="checkmark"></ion-icon>
+            Finalizar
+          </ion-button>
+        </ion-buttons>
+      </ion-toolbar>
+
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
