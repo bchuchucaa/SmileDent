@@ -1,0 +1,59 @@
+<ion-header [translucent]="true">
+  <ion-toolbar >
+    <ion-title >
+      Receta
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-card>
+    
+  
+  <ion-row>
+    <ion-col>
+      <ion-item>
+        <ion-label>Nombre del paciente</ion-label>
+        
+          <ion-input type="" ></ion-input>
+      </ion-item>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+      <ion-item>
+        <ion-label>Fecha</ion-label>
+        <ion-input type="" ></ion-input>
+
+      </ion-item>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+      <ion-item>
+        <ion-textarea>RP</ion-textarea>
+      </ion-item>
+    </ion-col>
+    <ion-col>
+      <ion-item>
+        <ion-textarea>Indicaciones</ion-textarea>
+      </ion-item>
+    </ion-col>
+  </ion-row>
+  <ion-toolbar>
+    <ion-buttons slot="end">
+      <ion-button (click)="onClick()" color="primary">
+        <ion-icon slot="start" name="clipboard" ></ion-icon>
+        Generar receta
+      </ion-button>
+      <ion-button (click)="onClick()" color="success">
+        <ion-icon slot="start" name="card"></ion-icon>
+        Imprimir receta
+      </ion-button>
+      <ion-button (click)="onClick()" color="warning">
+        <ion-icon slot="start" name="checkmark"></ion-icon>
+        Cancelar
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-card>
+</ion-content>

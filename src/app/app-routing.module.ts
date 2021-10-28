@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 import { FichaComponent } from './ficha/ficha.component';
 import { LoginComponent } from './login/login.component';
+import { RecetaComponent } from './receta/receta.component';
 
 const routes: Routes = [
   { path: 'start', 
@@ -17,6 +18,9 @@ const routes: Routes = [
   { path: 'login',component:LoginComponent },
   {
     path: 'ficha',component:FichaComponent
+  },
+  {
+    path:'receta',component:RecetaComponent
   }
 
 ];
